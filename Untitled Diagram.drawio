@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-12T04:01:36.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="qc-p63mh2ZiFB50J8dMy" version="12.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-12T04:04:49.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="s8D8yG44mR0dKdsrIsVF" version="12.8.4" type="github">
   <diagram id="TDsaU01vD9iEz750RFAm" name="Page-1">
     <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0" extFonts="Kanit^https://fonts.googleapis.com/css?family=Kanit">
       <root>
@@ -28,8 +28,28 @@
         <mxCell id="GEMU3bLkqiKZxPkndOhE-12" value="&lt;font face=&quot;Kanit&quot; color=&quot;#ff8000&quot;&gt;ข้อมูลใน&lt;br&gt;Cloud&lt;br&gt;Firestore&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;verticalAlign=bottom;textDirection=ltr;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="180" width="93" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GEMU3bLkqiKZxPkndOhE-17" value="ka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-17" target="GEMU3bLkqiKZxPkndOhE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-17" value="ถ้ามีค่า &amp;gt;= 3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Kanit;" vertex="1" parent="1">
           <mxGeometry x="190" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-19" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-21" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="150" y="446" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-23" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-24" value="ไม่ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="300" y="446" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
