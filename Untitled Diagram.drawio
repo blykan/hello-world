@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-12T04:23:02.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="Ykk1NXEbXaa8Ers1cFLW" version="12.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-12T04:28:32.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="hJhNdbQXsBlot6RyDcT9" version="12.8.4" type="github">
   <diagram id="TDsaU01vD9iEz750RFAm" name="Page-1">
     <mxGraphModel dx="1240" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0" extFonts="Kanit^https://fonts.googleapis.com/css?family=Kanit">
       <root>
@@ -36,6 +36,9 @@
         <mxCell id="GEMU3bLkqiKZxPkndOhE-17" value="ถ้ามีค่า &amp;gt;= 3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Kanit;" vertex="1" parent="1">
           <mxGeometry x="190" y="420" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-19" target="GEMU3bLkqiKZxPkndOhE-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-19" value="ลบกระดาษ&lt;br&gt;ที่โดนเผา&lt;br&gt;โดยใช้ id&amp;nbsp;&lt;br&gt;+ สุ่มจำนวนการลบกระดาษ" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
           <mxGeometry x="80" y="540" width="100" height="100" as="geometry" />
         </mxCell>
@@ -55,13 +58,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-26" value="&lt;font face=&quot;Kanit&quot;&gt;ดึงข้อมูลจาก&lt;br&gt;Users/uid/info&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="525" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-31" target="GEMU3bLkqiKZxPkndOhE-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GEMU3bLkqiKZxPkndOhE-31" value="เช็คกระดาษโดยใช้&lt;br&gt;15 scrap.length&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="535" y="406" width="100" height="100" as="geometry" />
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-31" value="เช็คกระดาษโดยใช้&lt;br&gt;15-scrap.length&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="650" y="415" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Kanit;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-33" target="GEMU3bLkqiKZxPkndOhE-49">
           <mxGeometry relative="1" as="geometry">
@@ -72,40 +75,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-33" value="ถ้ามีกระดาษ&lt;br&gt;ที่โดนเผาด้วย" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="535" y="640" width="100" height="100" as="geometry" />
+          <mxGeometry x="650" y="649" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-35" value="ตรวจจำนวนเผา" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
           <mxGeometry x="242" y="210" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-36" value="ลบกระดาษ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="541" y="211" width="70" height="20" as="geometry" />
+          <mxGeometry x="656" y="210" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-39" value="มี" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
           <mxGeometry x="478" y="673" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-40" value="ไม่มี" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="691" y="672" width="30" height="20" as="geometry" />
+          <mxGeometry x="806" y="681" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-42" target="GEMU3bLkqiKZxPkndOhE-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-42" value="ส่งค่ากลับเป็น&lt;br&gt;ตัวเเปร Array&lt;br&gt;ว่าได้ลบกระดาษเเล้ว&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="680" y="730" width="100" height="100" as="geometry" />
+          <mxGeometry x="795" y="739" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Kanit;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-44" target="GEMU3bLkqiKZxPkndOhE-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="330" as="targetPoint" />
+            <mxPoint x="955" y="339" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="910" />
-              <mxPoint x="850" y="320" />
+              <mxPoint x="965" y="919" />
+              <mxPoint x="965" y="329" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GEMU3bLkqiKZxPkndOhE-44" value="ส่งค่าคืน" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="680" y="880" width="100" height="60" as="geometry" />
+          <mxGeometry x="795" y="889" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GEMU3bLkqiKZxPkndOhE-49" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
-          <mxGeometry x="367" y="730" width="100" height="100" as="geometry" />
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-49" target="GEMU3bLkqiKZxPkndOhE-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-49" value="ดึงค่าโดนเผ่า&lt;br&gt;เเล้วนำ ค่าของสมการ 15-scrap.length ลบกับจำนวนที่โดนเผา" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="398" y="730" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-50" target="GEMU3bLkqiKZxPkndOhE-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-50" value="ส่งค่ากลับเป็น&lt;br&gt;ตัวเเปร Array&lt;br&gt;ว่าได้ลบกระดาษเเล้ว&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="398" y="870" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-52" target="GEMU3bLkqiKZxPkndOhE-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-52" value="เก็บค่าว่าต้องลบกระดาษ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="80" y="693" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Kanit;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-55" target="GEMU3bLkqiKZxPkndOhE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-55" value="ส่งค่าคืน" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Kanit;" vertex="1" parent="1">
+          <mxGeometry x="398" y="1010" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
