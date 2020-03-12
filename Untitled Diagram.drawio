@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-03-12T03:50:14.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="-bUPV5aUoa6_pjgwchqN" version="12.8.4" type="github"><diagram id="TDsaU01vD9iEz750RFAm" name="Page-1">jZJNb8MgDIZ/TY6r8jFlzbUf21Rph63SeqxQcAMahIi4I92vH1lM0qiqtAsyDy8Yv3aUrXX3Ylkj3gwHFaUx76JsE6XpMl/6tQeXATwW6QAqK/mAkgns5Q8QjImeJYd2JkRjFMpmDktT11DijDFrjZvLTkbNszasghuwL5m6pQfJUVBZ6dPEX0FWImRO8mI40SyIqZJWMG7cFcq2Uba2xuAQ6W4Nqvcu+DLce75zOn7MQo3/ubA7xvnm89DsPuzqUDhe6/fjA73yzdSZCqbP4iU40KI1X2Px/tsrgVr5MPGhL6rpdbqr+vYvTsq4UjCLixb9euw1TkiEfcPKXui8zDNKCxahu1tPMrrkpwuMBrQXLwkXCjI2TBZt3dSmJCYmrlqUE2M0GdX48mSeD8i/sJ369Hd2NezZ9hc=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-12T04:01:36.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4073.0 Safari/537.36 Edg/82.0.446.0" etag="qc-p63mh2ZiFB50J8dMy" version="12.8.4" type="github">
+  <diagram id="TDsaU01vD9iEz750RFAm" name="Page-1">
+    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0" extFonts="Kanit^https://fonts.googleapis.com/css?family=Kanit">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.5" y="350" as="targetPoint" />
+            <mxPoint x="559.5" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J_06DVWpJRrBW9wdnmQ_-1" target="GEMU3bLkqiKZxPkndOhE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_06DVWpJRrBW9wdnmQ_-1" value="เริ่มทำงาน" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Kanit;FType=g;" parent="1" vertex="1">
+          <mxGeometry x="364" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-10" target="GEMU3bLkqiKZxPkndOhE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-10" value="&lt;font face=&quot;Kanit&quot;&gt;ดึงข้อมูลจาก&lt;br&gt;scrapPosition&lt;br&gt;/burned&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GEMU3bLkqiKZxPkndOhE-12" target="GEMU3bLkqiKZxPkndOhE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-12" value="&lt;font face=&quot;Kanit&quot; color=&quot;#ff8000&quot;&gt;ข้อมูลใน&lt;br&gt;Cloud&lt;br&gt;Firestore&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;verticalAlign=bottom;textDirection=ltr;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="180" width="93" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GEMU3bLkqiKZxPkndOhE-17" value="ka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
